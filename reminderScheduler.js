@@ -2,7 +2,7 @@ const cron = require('node-cron');
 const Task = require('./models/Task');
 const sgMail = require('@sendgrid/mail');
 
-sgMail.setApiKey("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");
+sgMail.setApiKey("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");
 
 cron.schedule('* * * * *', async () => {
   const now = new Date();
